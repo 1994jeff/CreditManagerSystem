@@ -1,9 +1,13 @@
 package com.manager.jfdeng.creditmanagersystem;
 
+import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.manager.jfdeng.creditmanagersystem.activity.StudentActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.student:
-
+                startActivity(new Intent(MainActivity.this, StudentActivity.class));
                 break;
             case R.id.score:
 
