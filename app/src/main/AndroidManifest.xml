@@ -28,6 +28,14 @@
         </activity>
         <activity android:name=".activity.student.UpdateDetialActivity">
         </activity>
+        <activity android:name=".activity.ScoreManagerActivity">
+        </activity>
+        <activity android:name=".activity.score.DianMingActivity">
+        </activity>
+        <activity android:name=".activity.score.ZuoyeActivity">
+        </activity>
+        <activity android:name=".activity.score.ShangjiActivity">
+        </activity>
     </application>
 
 </manifest>

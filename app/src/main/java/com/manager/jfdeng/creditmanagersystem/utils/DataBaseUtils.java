@@ -19,9 +19,22 @@ public class DataBaseUtils extends SQLiteOpenHelper {
     final String CREATE_SCORE = "create table if not exists score(" +
             "id integer primary key autoincrement ," +
             "sno text," +
-            "kaoqin integer," +
-            "zuoye integer," +
-            "shangji integer)";
+            "kaoqin1 text," +
+            "kaoqin2 text," +
+            "kaoqin3 text," +
+            "kaoqin4 text," +
+            "kaoqin5 text," +
+            "zuoye1 text," +
+            "zuoye2 text," +
+            "zuoye3 text," +
+            "zuoye4 text," +
+            "zuoye5 text," +
+            "shangji1 integer," +
+            "shangji2 integer," +
+            "shangji3 integer," +
+            "shangji4 integer," +
+            "shangji5 integer" +
+            ")";
 
 //    final String CREATE_STU = "create table if not exists stu(" +
 //            "id integer primary key autoincrement ," +
