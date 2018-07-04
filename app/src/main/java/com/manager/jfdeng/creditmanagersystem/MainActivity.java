@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.manager.jfdeng.creditmanagersystem.activity.ScoreManagerActivity;
 import com.manager.jfdeng.creditmanagersystem.activity.StudentActivity;
+import com.manager.jfdeng.creditmanagersystem.activity.mail.AddMailActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, ScoreManagerActivity.class));
                 break;
             case R.id.backup:
-
+                startActivity(new Intent(MainActivity.this, AddMailActivity.class));
                 break;
             case R.id.rank:
 

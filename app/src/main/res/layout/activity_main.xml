@@ -41,6 +41,7 @@
         android:background="@color/holo_orange_light"
         android:textColor="@color/white"
         android:layout_marginTop="30dp"
+        android:visibility="gone"
         android:text="成绩排名"/>
 
 </LinearLayout>

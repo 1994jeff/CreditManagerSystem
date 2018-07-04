@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.manager.jfdeng.creditmanagersystem.activity.mail.AddMailActivity">
+
+    <EditText
+        android:id="@+id/mailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请输入邮箱地址"/>
+
+    <EditText
+        android:id="@+id/mailPsd"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="请输入邮箱授权码"/>
+
+    <EditText
+        android:id="@+id/mailAddress2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="请输入邮箱地址2"/>
+
+    <EditText
+        android:id="@+id/mailPsd2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="请输入邮箱地址2授权码"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/holo_orange_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="@string/ok"/>
+</LinearLayout>

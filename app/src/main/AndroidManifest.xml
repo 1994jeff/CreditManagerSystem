@@ -28,7 +28,8 @@
         <activity android:name=".activity.score.SearchActivity" />
         <activity android:name=".activity.score.ScoreAddActivity" />
         <activity android:name=".activity.score.UpdateScoreActivity" />
-        <activity android:name=".activity.score.UpdateScoreDetialActivity"></activity>
+        <activity android:name=".activity.score.UpdateScoreDetialActivity" />
+        <activity android:name=".activity.mail.AddMailActivity"></activity>
     </application>
 
 </manifest>
