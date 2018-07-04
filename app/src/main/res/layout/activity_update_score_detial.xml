@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.manager.jfdeng.creditmanagersystem.activity.score.UpdateScoreDetialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/sNo"
+            android:layout_marginTop="20dp"
+            android:hint="请输入学号"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/name"
+            android:hint="请输入姓名"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/sClass"
+            android:hint="请输入班级"
+            android:editable="false"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="考勤得分:"/>
+
+        <EditText
+            android:id="@+id/dianming1"
+            android:hint="请输入点名得分1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/dianming2"
+            android:hint="请输入点名得分2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/dianming3"
+            android:hint="请输入点名得分3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/dianming4"
+            android:hint="请输入点名得分4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/dianming5"
+            android:hint="请输入点名得分5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="作业得分:"/>
+
+        <EditText
+            android:id="@+id/zuoye1"
+            android:hint="请输入作业得分1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/zuoye2"
+            android:hint="请输入作业得分2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <EditText
+            android:id="@+id/zuoye3"
+            android:hint="请输入作业得分3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/zuoye4"
+            android:hint="请输入作业得分4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/zuoye5"
+            android:hint="请输入作业得分5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="上机得分:"/>
+
+        <EditText
+            android:id="@+id/shangji1"
+            android:hint="请输入上机得分1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/shangji2"
+            android:hint="请输入上机得分2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <EditText
+            android:id="@+id/shangji3"
+            android:hint="请输入上机得分3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/shangji4"
+            android:hint="请输入上机得分4"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <EditText
+            android:id="@+id/shangji5"
+            android:hint="请输入上机得分5"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/holo_orange_light"
+            android:text="@string/ok"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>

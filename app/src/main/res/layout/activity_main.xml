@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:background="@color/holo_orange_light"
         android:textColor="@color/white"
-        android:text="成绩录入"
+        android:text="成绩管理"
         android:layout_marginTop="30dp"/>
 
     <Button

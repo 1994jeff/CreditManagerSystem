@@ -85,7 +85,9 @@ public class AddStudentActivity extends AppCompatActivity implements View.OnClic
         }
 
         String sql = "insert into stu(sno,name,class) values('"+sNoString+"','"+nameString+"','"+sClassString+"')";
+        String sql2 = "insert into score(sno,dianming1,dianming2,dianming3,dianming4,dianming5,zuoye1,zuoye2,zuoye3,zuoye4,zuoye5,shangji1,shangji2,shangji3,shangji4,shangji5) values('"+sNoString+"','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0')";
         db.execSQL(sql);
+        db.execSQL(sql2);
         Toast.makeText(this, "添加成功！", Toast.LENGTH_SHORT).show();
         mSNo.setText("");
         mName.setText("");

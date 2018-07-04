@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.manager.jfdeng.creditmanagersystem.activity.ScoreManagerActivity;
 import com.manager.jfdeng.creditmanagersystem.activity.StudentActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, StudentActivity.class));
                 break;
             case R.id.score:
-
+                startActivity(new Intent(MainActivity.this, ScoreManagerActivity.class));
                 break;
             case R.id.backup:
 
