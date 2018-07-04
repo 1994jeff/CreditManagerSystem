@@ -12,28 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="请输入邮箱地址"/>
+        android:hint="请输入邮箱地址"/>
 
     <EditText
         android:id="@+id/mailPsd"
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:text="请输入邮箱授权码"/>
+        android:hint="请输入邮箱授权码"/>
 
     <EditText
         android:id="@+id/mailAddress2"
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:text="请输入邮箱地址2"/>
+        android:hint="请输入邮箱地址2"/>
 
     <EditText
         android:id="@+id/mailPsd2"
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:text="请输入邮箱地址2授权码"/>
+        android:hint="请输入邮箱地址2授权码"/>
 
     <Button
         android:id="@+id/ok"
