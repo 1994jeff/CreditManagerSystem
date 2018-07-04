@@ -79,7 +79,7 @@ public class AddMailActivity extends AppCompatActivity implements View.OnClickLi
     private void sendMail() {
         SendMailUtil.FROM_ADD = mMailAddress.getText().toString();
         SendMailUtil.FROM_PSW = mMailPsd.getText().toString();
-        SendMailUtil.send("hello");
+        SendMailUtil.send(mMailAddress.getText().toString());
     }
 }
 
