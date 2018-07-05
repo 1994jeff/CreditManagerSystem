@@ -1,19 +1,15 @@
-package com.manager.jfdeng.creditmanagersystem.activity;
+package com.manager.jfdeng.creditmanagersystem.activity.score;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.manager.jfdeng.creditmanagersystem.R;
-import com.manager.jfdeng.creditmanagersystem.activity.score.DelScoreActivity;
-import com.manager.jfdeng.creditmanagersystem.activity.score.DianMingActivity;
-import com.manager.jfdeng.creditmanagersystem.activity.score.ScoreAddActivity;
-import com.manager.jfdeng.creditmanagersystem.activity.score.SearchActivity;
-import com.manager.jfdeng.creditmanagersystem.activity.score.UpdateScoreActivity;
+import com.manager.jfdeng.creditmanagersystem.activity.ScoreManagerActivity;
 
-public class ScoreManagerActivity extends AppCompatActivity implements View.OnClickListener {
+public class ScoreAddActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button mStuAdd;
     private Button mStuModify;
@@ -23,7 +19,7 @@ public class ScoreManagerActivity extends AppCompatActivity implements View.OnCl
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_score_manager);
+        setContentView(R.layout.activity_score_add);
         initView();
     }
 
@@ -43,20 +39,22 @@ public class ScoreManagerActivity extends AppCompatActivity implements View.OnCl
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.stuAdd:
-                Intent intent = new Intent(ScoreManagerActivity.this, ScoreAddActivity.class);
+                Intent intent = new Intent(ScoreAddActivity.this, DianMingActivity.class);
+                intent.putExtra("type","1");
                 startActivity(intent);
                 break;
             case R.id.stuModify:
-                Intent intent2 = new Intent(ScoreManagerActivity.this, UpdateScoreActivity.class);
+                Intent intent2 = new Intent(ScoreAddActivity.this, DianMingActivity.class);
+                intent2.putExtra("type","2");
                 startActivity(intent2);
                 break;
             case R.id.stuSea:
-                Intent intent3 = new Intent(ScoreManagerActivity.this, SearchActivity.class);
+                Intent intent3 = new Intent(ScoreAddActivity.this, DianMingActivity.class);
+                intent3.putExtra("type","3");
                 startActivity(intent3);
                 break;
             case R.id.back:
-                Intent intent4 = new Intent(ScoreManagerActivity.this, DelScoreActivity.class);
-                startActivity(intent4);
+                onBackPressed();
                 break;
         }
     }
