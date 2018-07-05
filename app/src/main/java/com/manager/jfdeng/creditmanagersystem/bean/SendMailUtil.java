@@ -52,8 +52,8 @@ public class SendMailUtil {
         mailInfo.setPassword(FROM_PSW);// 您的邮箱密码
         mailInfo.setFromAddress(FROM_ADD); // 发送的邮箱
         mailInfo.setToAddress(toAdd); // 发到哪个邮件去
-        mailInfo.setSubject("Hello"); // 邮件主题
-        mailInfo.setContent("Android 测试"); // 邮件文本
+        mailInfo.setSubject("学分管理APP------数据备份"); // 邮件主题
+        mailInfo.setContent("您好，您的学分数据备份请查收！"); // 邮件文本
         return mailInfo;
     }
 
